@@ -1,0 +1,7 @@
+//This is some codes I have used to solve the first two bullet points
+git init
+git checkout master 
+git branch -m master main 
+git remote add origin htts://github.com/Celestin25/Gym_Git_Exercise_Solutions.git
+git branch -M main 
+git push -u origin main 
