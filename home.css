@@ -31,3 +31,62 @@ body {
     padding: 10px 20px;
     font-size: 14px;
 }
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: grid;
+    justify-content: space-between;
+  }
+  
+  .footer-content a {
+    margin: 10px; ;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .footer-content a:hover {
+    color: blue;
+    font-weight: bold;
+    background-color: blue;
+  }
+  
+  .left-content p {
+    margin-bottom:10px;
+    margin: 10px;
+  }
+  
+  .header {
+    position:fixed;
+    top: 0%;
+    right: 0%;
+  }
+  .right-content {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+  .left-content {
+    position:fixed;
+    bottom: 10px;
+    left: 10px;
+  }
+  .container {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#header {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#right-header a {
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+  padding: 5px 10px;  
+}
